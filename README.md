@@ -10,8 +10,8 @@ pip install streamlit gpt4all
 Clone this repository and navigate to the project directory:
 
 ```bash
-git clone [repository_url]
-cd [project_directory]
+git clone https://github.com/GrahamboJangles/LocalAssistantPy.git
+cd LocalAssistantPy
 ```
 Run the Streamlit app:
 
