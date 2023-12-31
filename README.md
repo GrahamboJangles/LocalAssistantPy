@@ -18,7 +18,6 @@ Run the Streamlit app:
 ```bash
 streamlit run main.py
 ```
-Replace your_script_name.py with the name of the Python script containing the provided code.
 
 # Usage
 Enter your message in the text area labeled "Enter your message below."
