@@ -25,8 +25,8 @@ Click the "Submit" button to send your message to the language model.
 The assistant's response will be displayed below the text area.
 ## Additional Features
 Clear Context: Use the "Clear Context" button to reset the conversation context to the initial state.
-Important Note
-Make sure to set the correct path to your local GPT-3.5 model by updating the model_name variable in the script.
+# ⚠ Important Note ⚠
+Make sure to set the correct path to your local language model by updating the model_name variable in the script.
 
 ```python
 model_name = r"your/local/model/path"
