@@ -3,14 +3,16 @@ from gpt4all import GPT4All
 
 # Define a function to start the Streamlit chat
 def start_chat(model_name):
-    st.title('Coding Assistant')
+    st.title('LocalAssistantPy')
 
     # Initialize the model and context
     if 'model' not in st.session_state:
         st.session_state.model = GPT4All(model_name)
 
+    preprompt = "Context: You are a coding assistant."
+
     if 'context' not in st.session_state:
-        st.session_state.context = "Context: You are a coding assistant."
+        st.session_state.context = preprompt
 
     # The text area for the user input
     user_input = st.text_area("Enter your message below:")
@@ -22,7 +24,7 @@ def start_chat(model_name):
 
     # Button to clear the context
     if st.button('Clear Context'):
-        st.session_state.context = "Context: You are a coding assistant."
+        st.session_state.context = preprompt
 
     # Use st.markdown to display the current context on the webpage
     st.markdown(f"Current Context:\n {st.session_state.context}")
@@ -46,5 +48,5 @@ def generate_and_stream_response():
     st.session_state.context += f"{gen_output}\n"
 
 if __name__ == "__main__":
-    model_name = "G:\llama-b1407-bin-win-avx2-x64\models\slimopenorca-mistral-7b.Q4_K_M.gguf"
+    model_name = r"G:\llama-b1407-bin-win-avx2-x64\models\slimopenorca-mistral-7b.Q4_K_M.gguf"
     start_chat(model_name)  # Start the chat interface
