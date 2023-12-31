@@ -7,7 +7,7 @@ To run the LocalAssistantPy application, make sure you have the required depende
 ```bash
 pip install streamlit gpt4all
 ```
-Clone this repository and navigate to the project directory:
+Clone this repository with [git](https://git-scm.com/downloads) and navigate to the project directory:
 
 ```bash
 git clone https://github.com/GrahamboJangles/LocalAssistantPy.git
