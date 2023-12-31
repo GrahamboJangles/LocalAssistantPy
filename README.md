@@ -16,7 +16,7 @@ cd LocalAssistantPy
 Run the Streamlit app:
 
 ```bash
-streamlit run your_script_name.py
+streamlit run main.py
 ```
 Replace your_script_name.py with the name of the Python script containing the provided code.
 
