@@ -16,7 +16,7 @@ Clone this repository with [git](https://git-scm.com/downloads) and navigate to 
 git clone https://github.com/GrahamboJangles/LocalAssistantPy.git
 cd LocalAssistantPy
 ```
-Run the Streamlit app or run `_run.bat`:
+Run the Streamlit app with the command below or run the batch file `_run.bat`:
 
 ```bash
 streamlit run main.py
