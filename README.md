@@ -1,4 +1,5 @@
-![image](https://github.com/GrahamboJangles/LocalAssistantPy/assets/36944031/b5eeb127-6a78-497c-9161-a86b3e78f515)
+<img src="https://github.com/GrahamboJangles/LocalAssistantPy/assets/36944031/b5eeb127-6a78-497c-9161-a86b3e78f515" alt="Image" style="width: 600px; height: auto;">
+
 
 
 # LocalAssistantPy
