@@ -1,3 +1,6 @@
+![image](https://github.com/GrahamboJangles/LocalAssistantPy/assets/36944031/b5eeb127-6a78-497c-9161-a86b3e78f515)
+
+
 # LocalAssistantPy
 LocalAssistantPy is a simple Streamlit-based Python application that utilizes the GPT4All library to create a chat interface with a local language model. This interface allows users to interact with the model by entering messages and receiving responses.
 
