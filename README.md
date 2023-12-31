@@ -38,3 +38,10 @@ model_name = r"your/local/model/path"
 # Dependencies
 - Streamlit
 - GPT4All
+
+
+
+# Todo (that I may or may not actually get to in the future)
+- Code execution with output/error passed automatically to LLM
+- AutoGPT; give it a goal and let it run until it figures it out
+- Internet searching capabilities
